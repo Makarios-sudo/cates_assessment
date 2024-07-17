@@ -1,0 +1,82 @@
+.landingpage {
+    background-color: black;
+    width: 100%;
+    min-height: 100vh;
+}
+
+
+.landingContainer {
+    background-image: url("../images/homepage/classroom.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    min-height: 100vh;
+    filter: blur(0px);
+}
+
+.landing-header  {
+    width: 50%;
+    /* height: 50px; */
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin: auto;
+    padding: 350px 0px;
+    align-self: center;
+    text-align: center;
+    background-color: transparent;
+    /* background-color: black; */
+}
+
+.landing-header h2 {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    font-family: Petrov Sans;
+    font-weight: 200px;
+    font-size: 50px;
+    font-weight: bold;
+    color: #dd5d12;
+    
+}
+
+.landing-header p {
+    margin: auto;
+    text-align: center;
+    font-family: Petrov Sans;
+    font-weight: 200px;
+    font-size: 22px;
+    font-weight: bold;
+    color: #ffff;
+}
+
+.landing-cta {
+    width: 34%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.landing-button-link {
+    width: 150px;
+    text-decoration: none;
+    text-align: center;
+    font-family: Petrov Sans;
+    font-weight: 200px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #ffff;
+    padding: 10px 0px;
+    background-color: #dd5d12;
+    border: 0 solid transparent;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+
+.landing-button-link:hover {
+    color: #dd5d12;
+    background-color: #ffff;
+    border-radius: 25px 10px;
+}
+

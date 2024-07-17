@@ -1,0 +1,92 @@
+/* NavBar Begins */
+.navbar {
+    background-color: #63e60b;
+    padding: 10px;
+}
+
+.nav-header {
+    font-family: Petrov Sans;
+    font-weight: 500px;
+    font-size: 25px;
+    font-stretch: 2px;
+    color: #2b2b2b; 
+}
+
+.nav-details {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.profile-pix {
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+}
+
+.logout {
+    text-decoration: none;
+    font-family: Petrov Sans;
+    font-weight: bold;
+    font-size: 20px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    padding: 0 10px;
+    background-color:#63e60b;
+}
+
+.logout:hover {
+    background-color: #4e693c;
+
+}
+
+
+.sidebar-container {
+    display: flex;
+    width: 100%;
+    min-height: 100vh;
+}
+
+.sidebar-container ul {
+    list-style: none;
+    padding: 50px 0px;
+    justify-content: center;
+    text-align: start;
+    width: 100%;
+    background-color: #2b2b2b;
+}
+
+.sidebar-container li {
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.sidebar-container .list-link {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+    font-family: Petrov Sans;
+    font-weight: 500px;
+    font-size: 25px;
+    font-stretch: 2px;
+    color: #fff; 
+    padding-left: 20px;
+}
+
+.sidebar-container .list-link:hover {
+    margin: auto;
+    color: #63e60b; 
+}
+
+.toggle {
+    font-size: 30px;
+    margin: 0px 20px;
+    color: #fff;
+}
+
+.list-link-icon {
+    padding-left: 5px;
+    font-size: 30px;
+}
